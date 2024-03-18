@@ -29,4 +29,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Test with bandit
-        run: bandit -r . --exclude ./wa3392-project-env4
+        run: bandit -r . 
